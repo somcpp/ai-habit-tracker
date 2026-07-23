@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api", // The backend is on port 8080 based on server.js defaults
+  baseURL: import.meta.env.VITE_API_URL, // The backend is on port 8080 based on server.js defaults
   withCredentials: true, // Important for cookies
 });
 
