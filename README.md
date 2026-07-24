@@ -2,6 +2,13 @@
 
 A modern, full-stack habit tracking application with AI-powered insights, personalized habit suggestions, and streak tracking.
 
+## Demo Login
+
+The demo account is already available in the database to see all features in action better:
+
+- **Email:** `demo@example.com`
+- **Password:** `password123`
+
 ## Features
 
 - **Modern UI/UX**: Built with React and Tailwind CSS featuring glassmorphism, dynamic layouts, and a responsive design.
@@ -87,4 +94,4 @@ If you want to populate the database with a demo user and mock data for the last
 cd server
 npm run seed
 ```
-You can then log in with `demo@example.com` and password `password123`.
+
